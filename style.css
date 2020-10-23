@@ -1,0 +1,76 @@
+*{
+    background-color: blanchedalmond;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid black;
+    background-color: gray;
+    margin: 3em;
+}
+
+.navigator{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image{
+    text-align: center;
+}
+
+#list-historicalmedia{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.blog{
+    border-top: solid black;
+    margin: 2em;
+}
+
+.blogtext{
+    margin: 3em;
+    
+}
+
+.list{
+    margin-left: 3em;
+    
+}
+
+input[type="text"]{
+    background-color: white;
+}
+
+select[name="reason"]{
+    background-color: white;
+
+}
+
+.button{
+    background-color: rgb(126, 126, 223);
+}
+
+option[value|="option"]{
+    background-color: white;
+}

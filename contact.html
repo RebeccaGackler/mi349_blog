@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="navigator">
             <li><a href="index.html">Blog</a></li>
             <li><a href="about.html">About</a></li> 
          </ul>
     </nav>
     <h1>Contact Me</h1>
 
-    <form action="">
+    <form action="submit">
         <label for="name">Name: </label>
         <input type="text" name="name" id="name" required>
         
@@ -23,16 +24,16 @@
         
         <label for="reason">Reason for contacting:</label>
         <select name="reason" id="reason">
-            <option value="default">Please select reason</option>
-            <option value="just-saying-hi">Just saying hi</option>
-            <option value="looking-for-contractor">Looking for a freelancer</option>
-            <option value="interested-in-interview">Interested in an interview</option>
+            <option value="option-default">Please select reason</option>
+            <option value="option-just-saying-hi">Just saying hi</option>
+            <option value="option-looking-for-contractor">Looking for a freelancer</option>
+            <option value="option-interested-in-interview">Interested in an interview</option>
         </select>
 
         <label for="comments">Comments:</label>
         <input type="text" name="comments" id="comments">
         
-        <button>Submit</button>
+        <button class="button">Submit</button>
     </form>
 
 
