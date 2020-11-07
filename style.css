@@ -31,6 +31,7 @@ h3{
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    list-style-type: none;
 }
 
 .table{
