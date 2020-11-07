@@ -105,3 +105,21 @@ select[name="reason"]{
 option[value|="option"]{
     background-color: white;
 }
+
+@media(max-width: 400px){
+    
+    .blogtext{
+        margin: 1em;
+        overflow-wrap: break-word;
+    }
+
+    .image{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
